@@ -1,4 +1,4 @@
-ROM openjdk:17
+FROM openjdk:17
 
 COPY target/demo-app.jar  /usr/app/
 
